@@ -1,6 +1,6 @@
 {
   "icon": "apps",
   "title": "Applications",
-  "description": "Give every app its own credentials, redirect URIs, and scopes.",
+  "description": "Every application gets its own credentials, redirect URIs and scopes. Secrets hashed, redirects matched exactly.",
   "order": 2
 }

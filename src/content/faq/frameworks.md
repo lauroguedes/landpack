@@ -3,4 +3,4 @@ question: Do my applications need to use Laravel?
 order: 2
 ---
 
-No. Applications connect through standard OpenID Connect. Use a compatible client library in your preferred language and configure it with your server’s issuer URL and application credentials.
+No. Applications connect over standard OpenID Connect, so any maintained client library will do — Laravel, Node, Python, Go, .NET, a mobile app, a single-page app. Point it at your issuer URL with the credentials you registered; most libraries read everything else from the discovery document.

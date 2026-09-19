@@ -1,6 +1,6 @@
 {
   "title": "Bring identity online",
-  "description": "Run the guided installer to configure your server.",
+  "description": "Signing keys, platform roles, your first administrator, and the endpoints your applications need.",
   "command": "php artisan sso:install",
   "order": 2
 }
