@@ -1,0 +1,6 @@
+{
+  "icon": "apps",
+  "title": "Applications",
+  "description": "Give every app its own credentials, redirect URIs, and scopes.",
+  "order": 2
+}

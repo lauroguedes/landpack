@@ -1,0 +1,6 @@
+{
+  "icon": "shield",
+  "title": "Per-application roles",
+  "description": "Each app sees only its own permissions. Clear boundaries, by default.",
+  "order": 3
+}

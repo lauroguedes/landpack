@@ -1,0 +1,6 @@
+{
+  "icon": "code",
+  "title": "Scoped delegation",
+  "description": "Give developers control of an application without handing over the server.",
+  "order": 5
+}

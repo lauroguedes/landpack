@@ -1,0 +1,6 @@
+{
+  "icon": "globe",
+  "title": "OpenID Connect",
+  "description": "Discovery, signing keys, ID tokens, UserInfo, and coordinated logout.",
+  "order": 1
+}

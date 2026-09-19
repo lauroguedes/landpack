@@ -1,0 +1,6 @@
+{
+  "title": "Make yourself at home",
+  "description": "Install dependencies and prepare the application.",
+  "command": "composer setup",
+  "order": 1
+}

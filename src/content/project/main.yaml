@@ -1,0 +1,107 @@
+# Hero background: glow (default), grid, or rays.
+# Preview frame: arc (border only, default), browser (glass with toolbar), or safari (compact).
+# preview.address controls the decorative URL shown in browser and safari frames.
+name: Laravel SSO
+shortName: laravel sso
+description:
+  A self-hosted OpenID Connect provider. One account, one sign-in page, and a server that
+  belongs to you.
+eyebrow: OPEN SOURCE. YOURS TO BUILD ON.
+headline: Your identity.
+headlineAccent: Your infrastructure.
+intro: One account. Every application. A self-hosted OpenID Connect server that puts you back in control.
+command: laravel new my-sso --using=lauroguedes/laravel-sso
+repository: https://github.com/lauroguedes/laravel-sso
+docs: https://laravel-sso.lauroguedes.dev/docs
+demo: https://laravel-sso.lauroguedes.dev
+license: MIT
+author: Lauro Guedes
+authorUrl: https://lauroguedes.dev
+stats:
+  - value: Open source
+    label: Built in the open
+    href: https://github.com/lauroguedes/laravel-sso
+  - value: OpenID Connect
+    label: Standards, not lock-in
+  - value: MIT
+    label: Free to make it yours
+  - value: PHP 8.3+
+    label: A familiar foundation
+featuresHeading: |-
+  Everything identity needs.
+  Nothing it doesn’t.
+featuresIntro: A focused foundation for authentication. Read the code, make it yours, and build what comes next.
+setupHeading: From clone to connected.
+setupIntro: Three steps to your own identity provider. No vendor account required.
+setupNote:
+  The installer creates your signing keys and platform roles, offers to create your first
+  administrator, and prints the endpoints your apps need.
+integrationsHeading: Your stack. Already invited.
+integrationsIntro:
+  Register an application and hand its developer the issuer and credentials. The
+  other end doesn’t have to be Laravel. Or even PHP.
+ctaHeading: One account. Endless possibilities.
+ctaIntro: Your people. Your applications. Your identity provider.
+preview:
+  address: auth.example.com
+  title: Your applications
+  subtitle: One identity provider. Everything connected.
+  apps:
+    - Acme Dashboard
+    - Customer Portal
+    - Internal Tools
+  caption: Your applications. Connected through one identity provider.
+  image: ../../assets/screenshots/applications-dark.png
+  imageAlt: Laravel SSO Applications page with six registered OAuth and OpenID Connect clients.
+  imageLight: ../../assets/screenshots/applications-light.png
+  frame: arc
+highlights:
+  - eyebrow: BUILT ON OPEN STANDARDS
+    title: |-
+      One sign-in.
+      Every application.
+    description:
+      Your users get one account and one familiar sign-in page. Your applications get
+      standard tokens. Passwords never cross the boundary.
+    graphic: flow
+  - eyebrow: PERMISSIONS WITH BOUNDARIES
+    title: |-
+      The right access.
+      In the right hands.
+    description:
+      Every application defines its own roles. Tokens carry only the roles a user holds
+      there, so one app never learns about another.
+    graphic: roles
+    image: ../../assets/screenshots/user-access.png
+    imageAlt:
+      "Users with access: Ada Admin has the Analyst role, while Alan Turing and Grace Hopper
+      have Viewer access."
+    imageLight: ../../assets/screenshots/user-access-light.png
+    crop:
+      x: 10
+      y: 12
+      width: 752
+      height: 409
+    cropLight:
+      x: 6
+      y: 9
+      width: 752
+      height: 409
+authorAvatar: ../../assets/screenshots/creator-reference.png
+authorAvatarFraming: reference
+background: glow
+faqHeading: A few things worth knowing.
+faqIntro: From licensing to your first connection. A few answers before you get started.
+
+stamp:
+  enabled: true
+  ringText: FREE ASTRO TEMPLATE · MAKE IT YOURS ·
+  title: Use this template
+  label: Use this landing page as a free Astro template
+  href: "#" # Placeholder: replace with your template or certification URL.
+
+seo:
+  image: /og-image.jpg
+  imageAlt: Laravel SSO — Your identity. Your infrastructure. A self-hosted OpenID Connect server.
+  imageWidth: 1200
+  imageHeight: 630

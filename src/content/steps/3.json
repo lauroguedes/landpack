@@ -1,0 +1,6 @@
+{
+  "title": "Bring identity online",
+  "description": "Run the guided installer to configure your server.",
+  "command": "php artisan sso:install",
+  "order": 2
+}

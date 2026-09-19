@@ -1,0 +1,19 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "landpack",
+  "compatibility_date": "2026-08-13",
+
+  // The built site. There is no `main`, so this deploys as an assets-only
+  // Worker: Cloudflare serves the files and no script runs per request.
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page",
+  },
+
+  // Add a `routes` entry to serve this on your own domain. Until then it is
+  // reachable at https://landpack.<your-subdomain>.workers.dev.
+
+  "observability": {
+    "enabled": true,
+  },
+}
