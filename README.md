@@ -7,6 +7,8 @@
 
 A customizable landing page template for open-source projects, built with **Astro, Lumos for Astro, and plain CSS**. Edit your content in YAML, JSON, and Markdown, then publish a static site.
 
+<img width="1672" height="941" alt="ChatGPT Image Sep 19, 2026, 06_18_41 PM" src="https://github.com/user-attachments/assets/aca1e4e2-27e9-4126-96f9-de5da849b4a6" />
+
 **Prefer to skip code edits?** Give an AI coding agent your project link or brief. The included [customization skill](docs/ai-customization.md) maps the whole template so the agent can adapt content, branding, assets, and SEO while preserving its structure.
 
 Laravel SSO is the included example project. Its product descriptions, commands, screenshots, and integration examples are sample content to replace with your own. Running this template does not install an identity server or require PHP.
